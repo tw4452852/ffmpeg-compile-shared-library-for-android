@@ -45,3 +45,5 @@ source/ffmpeg/config.h
 source/ffmpeg/config.mak
 source/ffmpeg/libavutil/avconfig.h
 source/ffmpeg/libavutil/ffversion.h
+
+out

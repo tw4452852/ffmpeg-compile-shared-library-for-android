@@ -2,9 +2,9 @@
 
 NDK=/data/ndk
 SYSROOT=$NDK/sysroot
-CROSS_PREFIX=$NDK/bin/i686-linux-android-
-ARCH=x86
-CPU=x86
+CROSS_PREFIX=$NDK/bin/x86_64-linux-android-
+ARCH=x86_64
+CPU=x86_64
 ADDITIONAL_CONFIGURE_FLAG=
 PREFIX=`pwd`/../out/$ARCH
 
