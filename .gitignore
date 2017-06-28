@@ -47,3 +47,6 @@ source/ffmpeg/libavutil/avconfig.h
 source/ffmpeg/libavutil/ffversion.h
 
 out
+GPATH
+GRTAGS
+GTAGS

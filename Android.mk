@@ -3,7 +3,7 @@ LOCAL_PATH := $(call my-dir)
 define include-lib
 include $$(CLEAR_VARS)
 
-LOCAL_MODULE := $$(basename $(1))_ffmpeg
+LOCAL_MODULE := $$(basename $(1))
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so

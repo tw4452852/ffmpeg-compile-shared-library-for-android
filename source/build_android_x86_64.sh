@@ -13,6 +13,8 @@ function build_one
 ../ffmpeg/configure \
   --prefix=$PREFIX \
   --enable-shared \
+  --enable-debug \
+  --disable-stripping \
   --disable-static \
   --disable-doc \
   --disable-ffmpeg \
@@ -24,7 +26,7 @@ function build_one
   --enable-small \
   --disable-yasm \
   --cross-prefix=$CROSS_PREFIX \
-  --target-os=linux \
+  --target-os=android \
   --arch=$ARCH \
   --cpu=$CPU \
   --enable-cross-compile \
